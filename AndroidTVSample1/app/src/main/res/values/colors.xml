@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navigation_background">#1f61dc</color>
+
+    <color name="primary">#16459c</color>
+    <color name="accent">#e98815</color>
+
+    <color name="card_background">#222222</color>
+
+    <color name="pref_group">@color/navigation_background</color>
+
+    <color name="btn_back_normal">#999999</color>
+    <color name="btn_back_focus">@color/navigation_background</color>
+    <color name="btn_back_press">@color/accent</color>
+
+</resources>

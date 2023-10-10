@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GridCardStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="cardBackground">@null</item>
+    </style>
+    <style name="GridCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/grid_card_width</item>
+        <item name="android:layout_height">@dimen/grid_card_height</item>
+    </style>
+
+    <!-- Theme used for styling image cards in the vertical grid view -->
+    <style name="GridCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/GridCardStyle</item>
+        <item name="imageCardViewImageStyle">@style/GridCardImageStyle</item>
+    </style>
+
+</resources>

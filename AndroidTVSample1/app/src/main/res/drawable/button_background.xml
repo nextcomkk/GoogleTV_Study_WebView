@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ボタン通常時 -->
+    <item android:state_pressed="false" android:state_focused="false">
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/btn_corner_radius"
+                android:topLeftRadius="@dimen/btn_corner_radius"
+                android:bottomRightRadius="@dimen/btn_corner_radius"
+                android:bottomLeftRadius="@dimen/btn_corner_radius"
+                />
+            <solid android:color="@color/btn_back_normal" />
+        </shape>
+    </item>
+    <!-- ボタンフォーカス時  -->
+    <item android:state_pressed="false" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/btn_corner_radius"
+                android:topLeftRadius="@dimen/btn_corner_radius"
+                android:bottomRightRadius="@dimen/btn_corner_radius"
+                android:bottomLeftRadius="@dimen/btn_corner_radius"
+                />
+            <solid android:color="@color/btn_back_focus" />
+        </shape>
+    </item>
+    <!-- ボタン押下時 -->
+    <item android:state_pressed="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/btn_corner_radius"
+                android:topLeftRadius="@dimen/btn_corner_radius"
+                android:bottomRightRadius="@dimen/btn_corner_radius"
+                android:bottomLeftRadius="@dimen/btn_corner_radius"
+                />
+            <solid android:color="@color/btn_back_press" />
+        </shape>
+    </item>
+</selector>

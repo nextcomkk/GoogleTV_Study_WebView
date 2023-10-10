@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "type": "GRID_SQUARE",
+      "title": "ネットから取得",
+      "description": "1,200円",
+      "imageUrl": "https://www.foodiesfeed.com/wp-content/uploads/2023/09/healthy-vegetables-close-up.jpg"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Nüsse",
+      "description": "$3.99/lb",
+      "localImageResource": "food_01"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Undefinierbar",
+      "description": "$3.99/lb",
+      "localImageResource": "food_02"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Brocoli",
+      "description": "$3.99/lb",
+      "localImageResource": "food_03"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Salat",
+      "description": "$3.99/lb",
+      "localImageResource": "food_04"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Große Radischen",
+      "description": "$3.99/lb",
+      "localImageResource": "food_05"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Rote Zwiebeln",
+      "description": "$3.99/lb",
+      "localImageResource": "food_06"
+    }
+  ]
+}
